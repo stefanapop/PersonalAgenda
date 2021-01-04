@@ -34,7 +34,7 @@ namespace PersonalAgenda
         {
             await Navigation.PushAsync(new ActivityPage((Agenda)this.BindingContext)
             {
-                BindingContext = new NoteActivity()
+                BindingContext = new Activity()
             });
 
         }
